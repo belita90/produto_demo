@@ -64,7 +64,6 @@ class ProdutoFragment : Fragment() {
         mInteractionListener = object : IProdutoInteractionListener {
 
             override fun onClick(id: Int, itemView: View) {
-                itemView.setBackgroundColor(Color.RED)
             }
 
         }
